@@ -26,7 +26,8 @@ body {
 	text-align:center;
 	top:150px;
 	bottom:25px;
-	margin: 0 150px 100px 150px;
+	margin-left:150px;
+	margin-right:150px;
 }
 
 .menu {
@@ -74,7 +75,7 @@ cursor:pointer;
 
 #page-container {
 	position:relative;
-	min-height:100vh;
+	min-height:11vh;
 }
 
 #content-wrap  {
