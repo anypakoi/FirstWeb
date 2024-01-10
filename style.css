@@ -22,13 +22,13 @@ body {background-color: ghostwhite;}
 .tree {
         position:relative;
 	text-align:center;
-	top:120px;
+	top:150px;
 	bottom:25px;
 	margin: 0 150px 100px 150px;
 }
 
 .menu {
-	position:relative;
+	position:absolute;
 	display:inline-block;
 	z-index:1;
 
