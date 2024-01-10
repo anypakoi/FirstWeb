@@ -3,7 +3,9 @@
 	text-align:center;
 }
 
-body {background-color: ghostwhite;}
+body {
+	background-color: ghostwhite;
+}
 
 .rectangulo {
 	position:absolute;
@@ -63,19 +65,26 @@ cursor:pointer;
 	display:block;
 }
 
-.finish {
-	position: relative;
-	height:100%;
-	margin-top:150px;
-	background-color: grey;
-	padding:10px;
-}
-
-.finish p {margin: 0px;}
-
 .finish a {
 	text-decoration:none;
 	color:black;
 }
 
 .finish a:hover {color:white}
+
+#page-container {
+	position:relative;
+	min-height:100vh;
+}
+
+#content-wrap  {
+	padding-bottom: 3rem;
+}
+
+#footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 3rem;
+	background-color: grey;
+}
