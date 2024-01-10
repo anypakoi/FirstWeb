@@ -65,7 +65,7 @@ cursor:pointer;
 
 .finish {
 	position: relative;
-	bottom:0;
+	height:100%;
 	margin-top:150px;
 	background-color: grey;
 	padding:10px;
