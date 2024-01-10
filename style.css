@@ -75,11 +75,11 @@ cursor:pointer;
 
 #page-container {
 	position:relative;
-	min-height:11vh;
+	min-height:100vh;
 }
 
 #content-wrap  {
-	padding-bottom: 7rem;
+	padding-bottom: 3rem;
 }
 
 #footer {
